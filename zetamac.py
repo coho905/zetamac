@@ -15,6 +15,7 @@ def generate_question():
         "*": operator.mul,
         "/": operator.floordiv
     }
+	
     operation = random.choice(list(operations.keys()))
 
     if operation == "-":
